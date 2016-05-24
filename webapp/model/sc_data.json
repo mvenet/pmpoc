@@ -1,0 +1,90 @@
+{   "mydata":[{
+        "field1":"data1"
+    }],
+    "SC": 
+    [
+     {"id":"1000250",
+      "description":"Hardware",
+     "totalprice": "100 €",
+     "requester": "Thomas RICHARD",
+      "items":  [
+                    {"numb":"10", 
+                    "item":"Screen", 
+                    "price":"90 €",
+                    "quantity": "8",
+                    "pcat": "IT Hardwares & Services",
+                    "approvers":[
+                                {"name":"Tom OLIVIER", "role":"Technical Approver", "state":"1"},
+                                {"name":"Cindy MARTIN", "role":"Purchaser Approver", "state":"2"},
+                                {"name":"John BERRY", "role":"Financial Approver", "state":"3"}
+                                ]
+                    },
+                    {"numb":"20", 
+                    "item":"Keyboard", 
+                    "price":"10 €",
+                    "quantity": "2",
+                    "pcat": "IT Hardwares & Services",
+                    "approvers":[
+                                {"name":"Tom OLIVIER", "role":"Technical Approver", "state":"1"},
+                                {"name":"John BERRY", "role":"Financial Approver", "state":"3"}
+                                ]
+                    }
+                ]     
+     },
+     {"id":"1000251",
+      "description":"Software",
+     "totalprice": "200 €",
+     "requester": "Thomas RICHARD",
+      "items":  [
+                    {"numb":"10", 
+                    "item":"Winword", 
+                    "price":"100 €",
+                    "quantity": "3",
+                    "pcat": "IT Hardwares & Services",
+                    "approvers":[
+                                {"name":"Cindy MARTIN", "role":"Purchaser Approver", "state":"2"},
+                                {"name":"John BERRY", "role":"Financial Approver", "state":"3"}
+                                ]
+                    },
+                    {"numb":"20", 
+                    "item":"Excel", 
+                    "price":"100 €",
+                    "quantity": "5",
+                    "pcat": "IT Hardwares & Services",
+                    "approvers":[
+                                {"name":"Tom OLIVIER", "role":"Technical Approver", "state":"1"},
+                                {"name":"Cindy MARTIN", "role":"Purchaser Approver", "state":"2"},
+                                {"name":"John BERRY", "role":"Financial Approver", "state":"3"}
+                                ]
+                    }
+                ]     
+         
+     },
+     {"id":"1000252",
+      "description":"Consulting",
+     "totalprice": "250 €",
+     "requester": "Alain GERARD",
+      "items":  [
+                    {"numb":"10", 
+                    "item":"SAP", 
+                    "price":"140 €",
+                    "quantity": "13",
+                    "pcat": "IT Hardwares & Services",
+                    "approvers":[
+                                {"name":"Tom OLIVIER", "role":"Technical Approver", "state":"1"},
+                                {"name":"John BERRY", "role":"Financial Approver", "state":"2"}
+                                ]},
+                    {"numb":"20", 
+                    "item":"Mobility", 
+                    "price":"110 €",
+                    "quantity": "30",
+                    "pcat": "IT Hardwares & Services",
+                    "approvers":[
+                                {"name":"Tom OLIVIER", "role":"Technical Approver", "state":"1"},
+                                {"name":"John BERRY", "role":"Financial Approver", "state":"3"}
+                                ]}
+                ]     
+         
+     }
+    ]
+}

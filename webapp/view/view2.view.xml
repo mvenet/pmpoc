@@ -1,0 +1,29 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="hrc.view.controller.view2">
+	<App>
+		<pages>
+			<Page title="Title">
+				<content>
+				    <sap.ui.layout.form:SimpleForm xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="false" layout="ResponsiveGridLayout" id="__form0">
+				        <sap.ui.layout.form:content xmlns:sap.ui.layout.form="sap.ui.layout.form">
+				            <core:Title text="Title" id="__title0"/>
+				            <Label text="Label 1" id="__label0"/>
+				            <Input width="100%" id="__input0"/>
+				            <Input width="100%" id="__input1"/>
+				            <Label text="Label 2" id="__label1"/>
+				            <Input width="100%" id="__input2"/></sap.ui.layout.form:content>
+				    </sap.ui.layout.form:SimpleForm>
+				    <Panel id="__panel0" expandable="true">
+				        <content>
+				            <Text text="No text specified" maxLines="0" id="__text5"/>
+				        </content>
+				    </Panel>
+				    <Panel id="__panel1" expandable="true" expanded="false">
+				        <content>
+				            <CheckBox id="__box0" text=" My check box"/>
+				        </content>
+				    </Panel>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

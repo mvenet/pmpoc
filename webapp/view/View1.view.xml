@@ -1,0 +1,49 @@
+<mvc:View 
+	xmlns:html="http://www.w3.org/1999/xhtml" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns:l="sap.ui.layout"
+	xmlns="sap.m" 
+	controllerName="hrc.controller.View1">
+	<App>   
+		<pages>
+			<Page title="{i18n>title}">
+				<IconTabBar>
+					<items>
+						<IconTabFilter 
+							icon="sap-icon://hint"
+							text="{i18n>Part_1}">
+							<mvc:XMLView viewName="hrc.view.Subview1"/>
+						</IconTabFilter>
+						<IconTabFilter 
+							icon="sap-icon://pipeline-analysis"
+							text="{i18n>Part_2}">
+							<mvc:XMLView viewName="hrc.view.Subview2"/>
+						</IconTabFilter>
+						<IconTabFilter 
+							icon="sap-icon://activity-individual" 
+							text="{i18n>Part_3}">
+							<mvc:XMLView viewName="hrc.view.Subview3"/>
+						</IconTabFilter>
+						<IconTabFilter 
+							icon="sap-icon://family-protection" 
+							text="{i18n>Part_4}">
+							<mvc:XMLView viewName="hrc.view.Subview4"/>
+						</IconTabFilter>
+						<IconTabFilter 
+							icon="sap-icon://signature" 
+							text="{i18n>Part_5}">
+							<mvc:XMLView viewName="hrc.view.Subview5"/>
+						</IconTabFilter>
+						<IconTabFilter 
+							icon="sap-icon://flag" 
+							text="{i18n>Part_6}">
+							<mvc:XMLView viewName="hrc.view.Subview6"/>
+						</IconTabFilter>						
+					</items>
+				</IconTabBar>
+				<Button text="Save" width="100px" id="__button0" press="handleSave"/>
+				<Button text="Read" width="100px" id="__button1" press="handleRead"/>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

@@ -1,0 +1,59 @@
+<core:View xmlns="sap.m"   
+	xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" >
+
+	<Title class="myTitle" text="{i18n>Part_4}"/>
+	<Table>
+		<columns>
+			<Column width="60%">
+				<Text text="MESURES DE SECURITE DEMANDEES"/>
+			</Column>
+			<Column>
+				<Text text="Mesure à réaliser par: E=Exploitant, I=intervenant, P=Pompier"/>
+			</Column>
+			<Column>
+				<Text text="Nom et visa de la personne qui exécute les consignes"/>
+			</Column>
+		</columns>
+		<items>
+			<ColumnListItem>
+				<cells>
+					<Text text="PERMIS DE FEU"/>
+				</cells>
+			</ColumnListItem>
+			<ColumnListItem>
+				<cells>
+					<Text text="Arrêt des réactions chimiques ou opérations utilisant des produits inflammables"/>
+				</cells>
+				<cells>
+					<Text text="..."/>
+				</cells>
+				<cells>
+					<Text text="..."/>
+				</cells>
+			</ColumnListItem>
+			<ColumnListItem>
+				<cells>
+					<Text text="Dégagement de toutes matières dans un rayon approprié autour, au-dessu et au-dessous du chantier"/>
+				</cells>
+				<cells>
+					<Text text="..."/>
+				</cells>
+				<cells>
+					<Text text="..."/>
+				</cells>
+			</ColumnListItem>
+			<ColumnListItem>
+				<cells>
+					<Text text="Arrêt de tout transfert de liquide inflammable ou vidange de citerne, conainer, camion-citerne ...."/>
+				</cells>
+				<cells>
+					<Text text="..."/>
+				</cells>
+				<cells>
+					<Text text="..."/>
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+	
+</core:View>

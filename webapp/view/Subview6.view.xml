@@ -1,0 +1,4 @@
+<core:View xmlns="sap.m"   
+	xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" >
+	<Title class="myTitle" text="{i18n>Part_6}"/>
+</core:View>

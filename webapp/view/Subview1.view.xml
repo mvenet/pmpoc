@@ -1,0 +1,54 @@
+<core:View xmlns="sap.m"   
+    xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" >
+
+							<Title class="myTitle" text="{i18n>Part_1}"/>
+								<sap.ui.layout:VerticalLayout xmlns:sap.ui.layout="sap.ui.layout" width="100%"> 
+									<sap.ui.layout:content>		
+										<CheckBox text="PPS N°" value="{/ppsnumber_check}"/>
+										<Input placeholder="........." value="{/number}"/>
+										<CheckBox text="Accompagnement permanent de l'intervenant :" value="{/intervenant_check}"/>
+										<Input placeholder="entrer l'intervenant ..." value="{/intervenant}"/>
+										<Label text="N° OT/AVIS ou DME"/>
+										<Input placeholder="entrer numéro ..." value="{/otnumber}"/>
+										<Label text="Service ou Entreprise"/>
+										<RadioButtonGroup columns="2">
+											<buttons>
+												<RadioButton text="Service"/>
+												<RadioButton text="Entreprise"/>
+											</buttons>
+										</RadioButtonGroup>
+										<Label text="Etabli le"/>
+										<DatePicker placeholder="date ...." value="{/date}"/>
+										<Label text="Responsable EU"/>
+										<Input placeholder="........" value="{/responsable_eu}"/>
+										<Label text="Emplacement du chantier / Lieu"/>
+										<Input placeholder="........" value="{/lieu}"/>
+										<Label text="Appareil"/>
+										<Input placeholder="........" value="{/appareil}"/>
+										<Label text="Début du chantier (date et heure)"/>
+										<DatePicker placeholder="date ...." value="{/startdate}"/>
+										
+										<TimePicker placeholder="time ...." value="{/starttime}"/>
+										
+										<Label text="Durée probable du chantier"/>
+										<Input placeholder="........" value="{/duration}"/>
+										<sap.ui.layout:HorizontalLayout xmlns:sap.ui.layout="sap.ui.layout" width="100%"> 
+											<sap.ui.layout:content>
+												<sap.ui.layout:VerticalLayout xmlns:sap.ui.layout="sap.ui.layout" width="100%"> 
+													<sap.ui.layout:content>
+														<Label text="PPP N°"/>
+														<Input placeholder="........" value="{/pppnumber}"/>
+													</sap.ui.layout:content>
+												</sap.ui.layout:VerticalLayout>	
+												<sap.ui.layout:VerticalLayout xmlns:sap.ui.layout="sap.ui.layout" width="100%"> 
+													<sap.ui.layout:content>
+														<Label text="PPPG N°"/>
+														<Input placeholder="........" value="{/pppgnumber}"/>
+													</sap.ui.layout:content>
+												</sap.ui.layout:VerticalLayout>	
+											</sap.ui.layout:content>
+										</sap.ui.layout:HorizontalLayout>
+										<MessageStrip type="Warning" text="Les intervenants reconnaissent avoir été informés des risques chimiques, biologiques et toxicologiques, notament de l'utilisation sur le site de produits classés CMR." style="color:red"/>
+									</sap.ui.layout:content>
+								</sap.ui.layout:VerticalLayout>
+				</core:View>
