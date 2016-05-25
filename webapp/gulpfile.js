@@ -27,6 +27,12 @@ gulp.task('watch', function () {
   gulp.src('./view/*.xml').pipe(browserSync.stream());
  });
 
+//Watch js files
+  gulp.watch('./view/*.js',  function() {
+  console.log('JS View changed');
+  gulp.src('./view/*.js').pipe(browserSync.stream());
+ });
+
 
 //json files
   gulp.watch('./model/*.json',  function() {

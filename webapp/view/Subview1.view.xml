@@ -4,7 +4,13 @@
 								<sap.ui.layout:VerticalLayout xmlns:sap.ui.layout="sap.ui.layout" width="100%"> 
 									<sap.ui.layout:content>		
 										<CheckBox text="PPS N°" value="{/ppsnumber_check}"/>
-										<Input placeholder="........." value="{/number}"/>
+										<MaskInput mask="CCCCC-DD-CC" placeholderSymbol="_" placeholder="nnn-aa-nn"
+										value="{/number}">
+											<rules>
+												<MaskInputRule maskFormatSymbol="C" regex="[0-9]"/>
+												<MaskInputRule maskFormatSymbol="D" regex="[a-]"/>
+											</rules>
+										</MaskInput>
 										<CheckBox text="Accompagnement permanent de l'intervenant :" value="{/intervenant_check}"/>
 										<Input placeholder="entrer l'intervenant ..." value="{/intervenant}"/>
 										<Label text="N° OT/AVIS ou DME"/>
