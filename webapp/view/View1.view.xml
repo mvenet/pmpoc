@@ -12,10 +12,6 @@
 					<items>
 						<IconTabFilter 
 							icon="sap-icon://hint"
-							text="Test signature">
-						</IconTabFilter>
-						<IconTabFilter 
-							icon="sap-icon://hint"
 							text="{i18n>Part_1}">
 							<mvc:XMLView viewName="hrc.view.Subview1"/>
 						</IconTabFilter>
@@ -37,7 +33,7 @@
 						<IconTabFilter 
 							icon="sap-icon://signature" 
 							text="{i18n>Part_5}">
-							<mvc:XMLView viewName="hrc.view.Subview5"/>
+							<core:Fragment fragmentName='hrc.view.Subview7' type='JS' />
 						</IconTabFilter>
 						<IconTabFilter 
 							icon="sap-icon://flag" 
@@ -48,8 +44,7 @@
 				</IconTabBar>
 				<Button text="Save" width="100px" id="__button0" press="handleSave"/>
 				<Button text="Read" width="100px" id="__button1" press="handleRead"/>
-			<core:Fragment fragmentName='hrc.view.Subview7' type='JS' />
-
+		
 			</Page>
 		</pages>
 	</App>
