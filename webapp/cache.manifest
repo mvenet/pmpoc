@@ -23,5 +23,20 @@ CACHE:
 /resources/sap/ui/core/messagebundle_fr.properties
 /model/data.json
 
+/controller/app.js
+/controller/signature.js
+/controller/signature_pad.js
+/controller/View1.controller.js
+
+/view/Subview1.view.xml
+/view/Subview2.view.xml
+/view/Subview3.view.xml
+/view/Subview4.view.xml
+/view/Subview5.view.xml
+/view/Subview6.view.xml
+/view/Subview8.view.xml
+/view/Subview7.fragment.js
+/view/View1.view.xml
+
 NETWORK:
 *
