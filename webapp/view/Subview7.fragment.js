@@ -23,6 +23,7 @@
         }});
 
         return new sap.m.Page({
+            title: "JS Fragment",
             content: [
                       myhtml,
                       clearBtn
