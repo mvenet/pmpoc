@@ -7,7 +7,7 @@
     "targetFolder": "dist",
     "sourceFolder": "webapp",
     "buildRequired": false,
-    "lastBuildDateTime": "Thu, 26 May 2016 12:51:06 GMT"
+    "lastBuildDateTime": "Thu, 26 May 2016 19:38:32 GMT"
   },
   "generation": [
     {
@@ -43,6 +43,6 @@
   "hcpdeploy": {
     "account": "s0012380118trial",
     "name": "sanofipm",
-    "lastVersionWeTriedToDeploy": "1.0.19"
+    "lastVersionWeTriedToDeploy": "1.0.21"
   }
 }
