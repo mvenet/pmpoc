@@ -1,7 +1,7 @@
 function signatureCapture() {
 	var canvas = document.getElementById("newSignature");
 	var context = canvas.getContext("2d");
-	canvas.width = 276;
+	canvas.width = 480;
 	canvas.height = 360;
 	context.fillStyle = "#fff";
 	context.strokeStyle = "#444";
@@ -31,6 +31,8 @@ function signatureCapture() {
 			if (e.changedTouches && e.changedTouches[0]) {
 				var offsety = canvas.offsetTop || 0;
 				var offsetx = canvas.offsetLeft || 0;
+//Add by CVER
+offsety = offsety + 146;
 
 				x = e.changedTouches[0].pageX - offsetx;
 				y = e.changedTouches[0].pageY - offsety;

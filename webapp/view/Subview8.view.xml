@@ -1,0 +1,4 @@
+<core:View xmlns="sap.m"   
+	xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" >
+<Text text="Application de démonstration d'un formulaire pour le processus de maintenance présentant différentes possibilité offertes par SAPUI5 : composants, contrôle, mode déconnecté, sognature électroniqe ..."/>	
+</core:View>

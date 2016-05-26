@@ -4,7 +4,7 @@
 								<sap.ui.layout:VerticalLayout xmlns:sap.ui.layout="sap.ui.layout" width="100%"> 
 									<sap.ui.layout:content>		
 										<CheckBox text="PPS N°" value="{/ppsnumber_check}"/>
-										<MaskInput mask="CCCCC-DD-CC" placeholderSymbol="_" placeholder="nnn-aa-nn"
+										<MaskInput mask="CCCCC-DD-CCC" placeholderSymbol="_" placeholder="nnn-aa-nnn"
 										value="{/number}">
 											<rules>
 												<MaskInputRule maskFormatSymbol="C" regex="[0-9]"/>

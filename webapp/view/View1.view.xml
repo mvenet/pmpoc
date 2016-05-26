@@ -8,10 +8,15 @@
 	<App>    
 		<pages>
 			<Page title="{i18n>title}">
-				<IconTabBar>
+				<IconTabBar> 
 					<items>
 						<IconTabFilter 
 							icon="sap-icon://hint"
+							text="{i18n>Part_8}">
+							<mvc:XMLView viewName="hrc.view.Subview8"/>
+						</IconTabFilter>
+						<IconTabFilter 
+							icon="sap-icon://key"
 							text="{i18n>Part_1}">
 							<mvc:XMLView viewName="hrc.view.Subview1"/>
 						</IconTabFilter>
