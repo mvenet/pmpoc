@@ -6,8 +6,8 @@
   "build": {
     "targetFolder": "dist",
     "sourceFolder": "webapp",
-    "buildRequired": true,
-    "lastBuildDateTime": "Thu, 19 May 2016 19:51:27 GMT"
+    "buildRequired": false,
+    "lastBuildDateTime": "Thu, 26 May 2016 12:51:06 GMT"
   },
   "generation": [
     {
@@ -42,7 +42,7 @@
   },
   "hcpdeploy": {
     "account": "s0012380118trial",
-    "name": "offlinetest",
-    "lastVersionWeTriedToDeploy": "1.0.11"
+    "name": "sanofipm",
+    "lastVersionWeTriedToDeploy": "1.0.19"
   }
 }

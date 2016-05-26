@@ -1,4 +1,4 @@
-  sap.ui.jsfragment("hrc.view.Subview7", {
+sap.ui.jsfragment("hrc.view.Subview7", {
  
     getControllerName : function() {
       return "hrc.view.Subview7";
@@ -18,12 +18,12 @@
         var myhtml = new sap.ui.core.HTML();
         myhtml.setContent(mySignature);
 
-        var clearBtn = new sap.m.Button({text: "Clear Signature", tap: function(evt) {
+        var clearBtn = new sap.m.Button({text: "Clear !", tap: function(evt) {
             signatureClear();
         }});
 
-        return new sap.m.Page({
-            content: [
+        return new sap.m.Panel({
+            content: [                
                       myhtml,
                       clearBtn
             ]

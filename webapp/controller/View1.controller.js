@@ -7,7 +7,7 @@ sap.ui.define([
     //Actions for Save button
     handleSave : function (evt) {
         var oData = this.getView().getModel().oData; //get data from Model
-        var request = window.indexedDB.open("offline_db", 1); //Open DB
+        var request = window.indexedDB.open("offline_cverdb", 1); //Open DB
            
 	    request.onupgradeneeded = function(event){ //Object Stores don't exist			    
 		    var db = event.target.result;
@@ -27,7 +27,7 @@ sap.ui.define([
     handleRead : function (evt) {
         var oJSONDataModel;
         var oView = this.getView();
-        var request = window.indexedDB.open("offline_db", 1); //Open DB
+        var request = window.indexedDB.open("offline_cverdb", 1); //Open DB
          
         request.onsuccess = function(event){//Objet Stores exist			    
 			 this.myDB = event.target.result;   
