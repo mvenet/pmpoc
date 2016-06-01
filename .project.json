@@ -6,7 +6,7 @@
   "build": {
     "targetFolder": "dist",
     "sourceFolder": "webapp",
-    "buildRequired": false,
+    "buildRequired": true,
     "lastBuildDateTime": "Thu, 26 May 2016 19:38:32 GMT"
   },
   "generation": [
@@ -32,7 +32,15 @@
     "services": {
       "xml": "fioriXmlAnalysis",
       "js": "fioriJsValidator"
-    }
+    },
+    "validators": [
+      {
+        "validatorID": "xmlValidator"
+      },
+      {
+        "validatorID": "fioriXmlAnalysis"
+      }
+    ]
   },
   "codeCheckingTriggers": {
     "notifyBeforePush": true,
